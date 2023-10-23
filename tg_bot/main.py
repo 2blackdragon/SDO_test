@@ -1,9 +1,6 @@
-import vk_bot.config as config
-import asyncio
-from aiogram import Bot, Dispatcher, F, types
-from aiogram.types import Message, ContentType
-import random
-import sys, os, json, aio_pika
+import config
+from aiogram import Bot, Dispatcher
+from aiogram.types import Message
 
 bot = Bot(token = config.BOT_TOKEN)
 dp = Dispatcher()
@@ -27,4 +24,4 @@ async def main():
     
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    main()

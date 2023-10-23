@@ -2,7 +2,7 @@ import pika
 import json
 
 data = {
-    "tg_id": 794853716,
+    "tg_id": 770746159,
     "social_media": "tg",
     "text": "Открыт новый урок"
 }
